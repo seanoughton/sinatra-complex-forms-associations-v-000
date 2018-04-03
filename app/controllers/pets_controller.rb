@@ -5,7 +5,7 @@ class PetsController < ApplicationController
     erb :'/pets/index'
   end
 
-  get '/pets/new/:id' do
+  get '/pets/new' do
     binding.pry
     erb :'/pets/new'
   end
