@@ -9,7 +9,7 @@ class PetsController < ApplicationController
     erb :'/pets/new'
   end
 
-  post '/pets/:id' do
+  post '/pets/2' do
         binding.pry
     @pet = Pet.create(params[:pet])
     if !params["owner"]["name"].empty?
