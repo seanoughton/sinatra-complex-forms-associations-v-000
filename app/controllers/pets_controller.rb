@@ -6,7 +6,6 @@ class PetsController < ApplicationController
   end
 
   get '/pets/new' do
-    binding.pry
     erb :'/pets/new'
   end
 
